@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP31D1.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents\Cst 136\BlackJack\card.cpp"
+"C:\Documents\Cst 136\BlackJack\deck.cpp"
+"C:\Documents\Cst 136\BlackJack\game.cpp"
+"C:\Documents\Cst 136\BlackJack\main.cpp"
+"C:\Documents\Cst 136\BlackJack\player.cpp"
+"C:\Documents\Cst 136\BlackJack\random.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP31D1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP31D2.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\card.obj"
+".\Debug\deck.obj"
+".\Debug\game.obj"
+".\Debug\main.obj"
+".\Debug\player.obj"
+".\Debug\random.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP31D2.TMP"
+<h3>Output Window</h3>
+Compiling...
+card.cpp
+deck.cpp
+game.cpp
+main.cpp
+player.cpp
+random.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/main.bsc"  ".\Debug\card.sbr" ".\Debug\deck.sbr" ".\Debug\game.sbr" ".\Debug\main.sbr" ".\Debug\player.sbr" ".\Debug\random.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
